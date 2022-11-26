@@ -1,0 +1,31 @@
+body{
+    background-color: beige;
+}
+h1{
+    color: rgb(61, 168, 72);
+    border: 1px solid rgb(107, 70, 70);
+}
+
+h2{
+    color: #29a668;
+    border: 1px solid royalblue;
+}
+
+h3{
+    color: rgb(56, 80, 104);
+    border:1px solid gray;
+}
+
+h4{
+    color: hsla(0, 100%, 50%, 1);
+    border:1px solid blueviolet
+}
+
+
+.header{
+
+    text-align: center;
+    margin: 60px;
+    padding: 40px ;
+    
+}
