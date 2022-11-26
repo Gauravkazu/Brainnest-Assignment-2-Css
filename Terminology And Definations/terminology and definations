@@ -1,0 +1,89 @@
+Q1.  What are the main differences between external, internal, and inline CSS?
+
+Ans. The main difference between inline CSS and external CSS is that inline CSS is processed faster as it only requires
+     the browser to download 1 file while using external CSS will require downloading HTML and CSS files separately.
+     Internal or embedded CSS requires you to add <style> tag in the <head> section of your HTML document.
+     This CSS style is an effective method of styling a single page.
+
+Q2.  What is the syntax for class and ID selectors?
+
+Ans. A class selector is a name preceded by a full stop (“.”) and an ID selector is a name preceded by a hash character (“#”).
+
+Q3.  How would you apply a single rule to two different selectors?
+Ans. To group CSS selectors in a style sheet, use commas to separate multiple grouped selectors in the style.
+     
+        for ex- div, p { color: #f00; }
+         The Style effect P and d elements.
+
+Q4. Given an element that has an id of title and a class of primary, how would you use both attributes for a single rule?
+Ans.
+
+Q5.  What does the descendant combinator do?
+
+Ans. The descendant combinator — typically represented by a single space (" ") character — combines two selectors such 
+that elements matched by the second selector are selected if they have an ancestor (parent, parent's parent, parent's parent's parent, etc.) 
+
+Q6.  Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?
+Ans. If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will win
+     --> ID selectors have a higher specificity than attribute selectors.
+
+Q7.  From inside to outside, what is the order of box-model properties?
+Ans. margins, borders, padding, and the actual content.
+
+Q8.  What does the box-sizing CSS property do?
+Ans. The box-sizing CSS property sets how the total width and height of an element is calculated.
+
+Q9.  What is the difference between the standard and alternative box model?
+Ans. 
+
+Q10. Would you use margin or padding to create more space between 2 elements?
+Ans. use margin to change the amount of space between items.
+
+Q11. Would you use margin or padding to create more space between the contents of an element and its border?
+Ans. Margin.
+
+Q12. Would you use margin or padding if you wanted two elements to overlap each other?
+Ans. Margin.
+
+Q13. What is the difference between a block element and an inline element?
+Ans. Block elements always start from a new line. Inline elements never start from a new line.
+
+Q14. What is the difference between an inline element and an inline-block element?
+Ans. the major difference is that inline-block allows to set a width and height on the element. 
+     Also, with display: inline, top and bottom margins & paddingsa line break happens after the element.
+
+Q15. Is an h1 block or inline?
+Ans. Block.
+
+Q16. Is button block or inline?
+Ans. Inline
+
+Q17. Is div block or inline?
+Ans. Block.
+
+Q18. Is span block or inline?
+Ans. Inline
+
+Q19. What’s the difference between a flex container and a flex item?
+Ans.Flex Container is the parent element while Flex Item represents the children.
+
+Q20. How do you create a flex item?
+Ans. <div class="flex-container">
+
+Q21. What are the 3 values defined in the shorthand flex property?
+Ans. flex-grow : 0. flex-shrink : 1. flex-basis : auto
+
+Q22. How do you make flex items arrange themselves vertically instead of horizontally?
+Ans. We use Align Item Property To Align The Items.
+
+Q23. What is the difference between justify-content and align-items?
+Ans. justify-content — controls alignment of all items on the main axis. align-items — controls alignment of all items on the cross axis.
+
+Q24. How do you use flexbox to completely center a div inside a flex container?
+Ans. We use the property of display set to flex i.e. display: flex;
+     Align items to center using align-items: center;
+     The last step is to set justify-content to center i.e. justify-content: center;
+Q25. What’s the difference between justify-content: space-between and justify-content: space-around?
+Ans. space-between : items are evenly distributed in the line; first item is on the start line, last item on the end line. 
+     space-around : items are evenly distributed in the line with equal space around them.
+
